@@ -64,7 +64,3 @@ The site is automatically deployed to GitHub Pages when you push to the main bra
 - **Typography**: System serif fonts (Times New Roman, Georgia, Garamond)
 - **Deployment**: GitHub Pages
 - **Icons**: Lucide React
-
-## License
-
-MIT License - feel free to use this project for your own blog!
