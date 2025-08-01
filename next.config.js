@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  basePath: "/MYblog",
+  basePath: "/Binary-Being",
   trailingSlash: true,
   distDir: "out",
   eslint: {
