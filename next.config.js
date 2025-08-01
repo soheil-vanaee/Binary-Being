@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
+  basePath: "/MYblog",
   trailingSlash: true,
   distDir: "out",
   eslint: {
@@ -15,18 +16,7 @@ const nextConfig = {
   staticPageGenerationTimeout: 300,
   swcMinify: true,
   poweredByHeader: false,
-  reactStrictMode: false,
+  reactStrictMode: false
 }
 
-module.exports = nextConfig
-// next.config.mjs
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: 'export', // برای static export
-  basePath: '/MYblog', // نام ریپوی شما در گیتهاب
-  images: {
-    unoptimized: true, 
-  },
-};
-
-export default nextConfig;
+module.exports = nextConfig;
