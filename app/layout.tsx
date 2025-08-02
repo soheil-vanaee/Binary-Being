@@ -8,15 +8,12 @@ export const metadata: Metadata = {
     "A vintage-styled newspaper blog about computer science, programming, Linux, and geek culture by Shayan GeeDook",
     generator: 'v0.dev'
 }
-
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
-      <body className="font-serif bg-vintage">{children}</body>
+      <body className="font-serif bg-vintage"></body>
+        <main className="flex-1 container mx-auto">{children}</main>
+      </body>
     </html>
   )
 }
